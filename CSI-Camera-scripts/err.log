@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/home/santy/Desktop/Programming/jetson/CSI-Camera/scripts/rtsp_camera.py", line 3, in <module>
+    gi.require_version('GstRtspServer', '1.0')
+  File "/usr/lib/python3/dist-packages/gi/__init__.py", line 126, in require_version
+    raise ValueError('Namespace %s not available' % namespace)
+ValueError: Namespace GstRtspServer not available
+Traceback (most recent call last):
+  File "/home/santy/Desktop/Programming/jetson/CSI-Camera/scripts/rtsp_camera.py", line 18, in do_create_element
+    return Gst.parse_launch(PIPELINE)
+gi.repository.GLib.GError: gst_parse_error: no element "nvv4l2h264enc" (1)
+
+(python:6364): GStreamer-RTSP-Server-CRITICAL **: 02:17:42.609: could not create element
+Traceback (most recent call last):
+  File "/home/santy/Desktop/Programming/jetson/CSI-Camera/scripts/rtsp_camera.py", line 18, in do_create_element
+    return Gst.parse_launch(PIPELINE)
+gi.repository.GLib.GError: gst_parse_error: no element "nvv4l2h264enc" (1)
+
+(python:6364): GStreamer-RTSP-Server-CRITICAL **: 02:17:42.694: could not create element
+Traceback (most recent call last):
+  File "/home/santy/Desktop/Programming/jetson/CSI-Camera/scripts/rtsp_camera.py", line 18, in do_create_element
+    return Gst.parse_launch(PIPELINE)
+gi.repository.GLib.GError: gst_parse_error: no element "nvv4l2h264enc" (1)
+
+(python:6364): GStreamer-RTSP-Server-CRITICAL **: 02:17:49.720: could not create element
+Traceback (most recent call last):
+  File "/home/santy/Desktop/Programming/jetson/CSI-Camera/scripts/rtsp_camera.py", line 18, in do_create_element
+    return Gst.parse_launch(PIPELINE)
+gi.repository.GLib.GError: gst_parse_error: no element "nvv4l2h264enc" (1)
+
+(python:6364): GStreamer-RTSP-Server-CRITICAL **: 02:17:49.953: could not create element
+

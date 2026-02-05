@@ -1,0 +1,1 @@
+gst-launch-1.0 nvarguscamerasrc ! nvvidconv !  video/x-raw,format=I420 ! x264enc ! h264parse ! rtph264pay name=pay0 pt=96 ! fakesink
